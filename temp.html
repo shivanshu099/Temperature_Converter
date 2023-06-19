@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Faster+One&family=Lovers+Quarrel&family=Orbitron&family=Poppins&display=swap"
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5b1dd63968.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="temp.css">
+    <title>Temperature Converter</title>
+</head>
+<!------fahrenheit to celsius-->
+
+
+<body>
+    <div class="head">
+        <h2 contenteditable="true">Temperature Converter</h2>
+    </div>
+    <div class="therm">
+        <div class="liquid"></div>
+        <div class="cup"></div>    
+    </div>
+    <div class="Wrapper">
+        <div class="container">
+            <label for="celsius">Celsius</label>
+            <input type="number" id="celsius" oninput="celTofar()">
+
+        </div>
+        <div class="container">
+            <label for="fahrenheit">Fahrenheit</label>
+            <input type="number" id="fahrenheit" oninput="farTocel()">
+        </div>
+    </div>
+</body>
+<script src="temp.js"></script>
+
+</html>
